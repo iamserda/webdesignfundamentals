@@ -2,7 +2,7 @@
 # Web Design Fundamentals
 
 ## What is it?
-A basic landing page for the Web Design Fundamentals project. The goal of this project is to provide a repository for people to quickly get up and running with the basics of web design and the fundamentals of front-end development.
+A project to review HTML/HTML5 and CSS/CSS3.
 
 ## Where is the Link
 <a href="https://iamserda.github.io/webdesignfundamentals/" target="_blank">Web Design Fundamentals</a>
