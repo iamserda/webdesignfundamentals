@@ -21,21 +21,43 @@ body {
     background-color: #333;
     color: #ddd;
     font-family: 'PT Sans', Menlo, Helvetica, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url("../img/nasa-Q1p7bh3SHj8-unsplash.jpg");
+    background-size: cover;
+    background-repeat: none;
+}
+
+body div.container {
+    background-color: rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    right: 0;
+    height: 100vh;
 }
 
 ul {
     width: 50%;
     max-width: 1080px;
-    margin: 1em auto 1em;
+    margin: 0 auto 1em;
+    padding: 2em 0 0;
+    display: flex;
+    flex-flow: row wrap;
 }
 
 ul li {
-    background-color: rgba(0, 183, 255, 0.493);
-    margin-bottom: 0.125em;
+    background-color: rgba(0, 183, 255, 0.288);
+    margin: 0.125em;
     display: inline-block;
-    padding: 0.25em 0.35em;
+    padding: none;
     text-align: center;
     border-radius: 0.125rem;
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 ul li:hover {
@@ -45,14 +67,16 @@ ul li:hover {
 li a {
     text-decoration: none;
     color: white;
+    text-align: center;
+    display: block;
 }
 
 li:hover a {
     color: rgba(0, 183, 255, 0.493);
 }
 
-body>h1,
-body>p {
+.welcome h1,
+.welcome p {
     text-align: center;
 }
 
@@ -65,10 +89,18 @@ h6 {
     text-align: center;
 }
 
+h1 {
+    font-family: "Zen Tokyo Zoo";
+    font-size: 100px;
+    font-weight: 400;
+}
+
 main {
-    width: 60%;
-    max-width: 1080px;
+    width: 80%;
+    max-width: 1300px;
+    min-width: 1200px;
     margin: 1em auto;
+    padding: 1em;
 }
 
 footer p {
@@ -77,6 +109,5 @@ footer p {
 }
 
 footer {
-    background-color: rgba(0, 183, 255, 0.493);
     padding: 0.25em;
 }
