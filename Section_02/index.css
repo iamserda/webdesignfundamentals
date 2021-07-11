@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Montserrat&family=Open+Sans&family=Raleway&family=Roboto&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 16px;
+    height: 100vh;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 1.25rem;
+    background-color: #333;
+    color: #ddd;
+    font-family: Helvetica, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+ul {
+    width: 50%;
+    max-width: 1080px;
+    margin: 1em auto 1em;
+}
+
+ul li {
+    background-color: rgba(0, 183, 255, 0.493);
+    margin-bottom: 0.125em;
+    display: inline-block;
+    padding: 0.25em;
+    text-align: center;
+    border-radius: 0.125rem;
+}
+
+ul li:hover {
+    background-color: white;
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+}
+
+li:hover a {
+    color: rgba(0, 183, 255, 0.493);
+}
+
+body>h1,
+body>p {
+    text-align: center;
+}
+
+main {
+    width: 60%;
+    max-width: 1080px;
+    margin: 1em auto;
+}
+
+footer p {
+    text-align: center;
+    font-size: 16px;
+}
+
+footer {
+    background-color: rgba(0, 183, 255, 0.493);
+    padding: 0.25em;
+}
