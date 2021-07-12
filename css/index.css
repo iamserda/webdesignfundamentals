@@ -24,6 +24,7 @@ body {
     background-image: url("../img/nasa-Q1p7bh3SHj8-unsplash.jpg");
     background-size: cover;
     background-repeat: none;
+    background-attachment: fixed;
 }
 
 body div.container {
@@ -33,7 +34,12 @@ body div.container {
     right: 0;
     left: 0;
     right: 0;
-    height: 100vh;
+    min-height: 100vh;
+}
+
+main h2 {
+    text-align: center;
+    font-size: 250%;
 }
 
 ul {
@@ -46,22 +52,29 @@ ul {
 }
 
 ul li {
-    background-color: rgba(0, 183, 255, 0.288);
-    margin: 0.125em;
+    background-color: rgba(14, 30, 51, 0.568);
+    margin: 0.25em;
     display: inline-block;
     padding: none;
     text-align: center;
     border-radius: 0.125rem;
-    width: 150px;
-    height: 150px;
+    width: 125px;
+    height: 125px;
     border-radius: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
+    transition-property: background-color width height;
+    transition-delay: 50ms;
+    transition-duration: 2s;
+    transition-timing-function: linear;
 }
 
 ul li:hover {
     background-color: white;
+    /* transform: scale(125%); */
+    width: 150px;
+    height: 150px;
 }
 
 li a {
@@ -72,20 +85,13 @@ li a {
 }
 
 li:hover a {
-    color: rgba(0, 183, 255, 0.493);
+    color: rgb(8, 28, 53);
+    /* font-size: 120%; */
+    font-weight: bold;
 }
 
 .welcome h1,
 .welcome p {
-    text-align: center;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
     text-align: center;
 }
 
@@ -110,4 +116,16 @@ footer p {
 
 footer {
     padding: 0.25em;
+}
+
+.columns {
+    display: flex;
+    flex-flow: col nowrap;
+}
+
+.columns>* {
+    width: 30%;
+    margin: 1em 1.5%;
+    background-color: rgba(0, 0, 22, 0.5);
+    padding: 1em;
 }
