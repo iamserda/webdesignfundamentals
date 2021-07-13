@@ -45,7 +45,7 @@ main h2 {
 ul {
     width: 50%;
     max-width: 1080px;
-    margin: 0 auto 1em;
+    margin: 1em auto 2em;
     padding: 2em 0 0;
     display: flex;
     flex-flow: row wrap;
@@ -115,6 +115,7 @@ footer p {
 }
 
 footer {
+    margin-top: 5vh;
     padding: 0.25em;
 }
 
